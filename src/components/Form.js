@@ -17,7 +17,7 @@ const Form = ({inputText, setInputText, todos, setTodos, setStatus}) => {
     setStatus(e.target.value);
   };
   return (
-    <form>
+    <form className="row">
       <input
         value={inputText}
         onChange={inputTextHandler}
