@@ -230,7 +230,8 @@ function App() {
     <div id="canvas-shapes" className="">
       <div className="App content">
         <header>
-          <h1>SilverCyber Todo List</h1>
+          <h1><strong>SilverCyber Todo List</strong></h1>
+          <h5>Made with ❤️ by Rajat Saxena</h5>
         </header>
         <Form
           todos={todos}
